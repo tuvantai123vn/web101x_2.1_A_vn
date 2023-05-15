@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.facebook{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+}
+.tintuc .card{
+    height: 100%;
+}
+.khampha .card{
+    height: 400px;
+    margin-bottom: 20%;
+}
+.carousel-item{
+    height: 518px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.card-img-overlay .card-title{
+    color: #fff;
+}
+.card-img-overlay .card-text{
+    color: #fff;
+}
+.diadiem .card{
+    width: 100%;
+    height: 70%;
+}
+.diadiem .card img{
+    width: 100%;
+    position: relative;
+}
+.card-img-overlay h5{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 20%;
+    font-size: 150%;
+    line-height: 100%;
+    text-align: center;
+}
+.lehoi{
+    background-color: #4e0961;
+    color: #fff;
+    text-align: center;
+}
+.lehoi .col-2{
+    border: 2px solid yellow;
+}
+span{
+    background-color: #f8c301;
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+}
+.diadiem a{
+    color: #fff;
+}
+.slogan .col-12{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #0d6efd;
+    height: 50px;
+    line-height: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.gioithieu h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.video{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.video iframe{
+    width: 60%;
+    height: 400px;
+}
+.gopy h2{
+    text-align: center;
+}
+.gopy p{
+    text-align: center;
+}
+.tintuc img{
+    width: 100%;
+    height: 80%;
+}
+.tintuc a{
+    text-decoration: none;
+    color: black;
+}
+.khampha img{
+    width: 100%;
+    height: 100%;
+}
+.khampha a{
+    text-decoration: none;
+    color: black;
+}
+.khampha h5{
+    font-size: 100%;
+}
+.khampha h2{
+    text-align: center;
+}
+.khampha p{
+    text-align: center;
+}
+@media only screen and (max-width: 991px) {
+    .card img{
+        width: 150px;
+        height: 100px;
+    }
+    .tintuc .card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .tintuc .card h5{
+        font-size: 12px;
+    }
+    .tintuc .card a{
+        font-size: 12px;
+    }
+    .carousel-item{
+        height: 320px;
+    }
+    span{
+        background-color: #f8c301;
+        color: #ffffff;
+        font-size: 20px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lehoi h4{
+        font-size: 16px;
+    }
+    .lehoi p{
+        font-size: 14px;
+    }
+    .diadiem .card{
+        width: 100%;
+        height: 100%;
+    }
+    .diadiem .card img{
+        width: 100%;
+        position: relative;
+    }
+    .card-img-overlay h5{
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 80%;
+        height: 40px;
+        font-size: 15px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .slogan h3{
+        font-size: 16px;
+    }
+    footer{
+        background-color: #0d6efd;
+        height: 50px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 16px;
+        color: #fff;
+    }
+    .khampha p{
+        font-size: 60%;
+        text-align: center;
+    }
+    .khampha a{
+        padding: 3%;
+    }
+    .khampha h5{
+        font-size: 100%;
+    }
+    .khampha h2{
+        text-align: center;
+        font-size: 100%;
+    }
+    .khampha img{
+        width: 100%;
+        width: 80%;
+    }
+    .khampha .card{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .card img{
+        width: 100%;
+        height: 80px;
+    }
+    .khampha img{
+        width: 100%;
+        height: 100%;
+    }
+    .tintuc .card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .tintuc .card h5{
+        font-size: 12px;
+    }
+    .tintuc .card a{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .carousel-item{
+        height: 320px;
+    }
+    .lehoi{
+        background-color: #4e0961;
+        color: #fff;
+        text-align: center;
+    }
+    .lehoi .col-2{
+        border: 1px solid yellow;
+    }
+    span{
+        background-color: #f8c301;
+        color: #ffffff;
+        font-size: 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lehoi h4{
+        font-size: 13px;
+    }
+    .lehoi p{
+        font-size: 12px;
+    }
+    .diadiem .card{
+        width: 100%;
+        height: 70%;
+    }
+    .diadiem .card img{
+        width: 100%;
+        position: relative;
+    }
+    .card-img-overlay h5{
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 80%;
+        height: 50%;
+        font-size: 50%;
+        line-height: 100%;
+        text-align: center;
+    }
+    .slogan h3{
+        font-size: 13px;
+    }
+    footer{
+        background-color: #0d6efd;
+        height: 50px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+    }
+    .khampha p{
+        font-size: 40%;
+        text-align: center;
+    }
+    .khampha a{
+        padding: 3%;
+        font-size: 60%;
+    }
+    .khampha h5{
+        font-size: 50%;
+        text-align: center;
+    }
+    .khampha h2{
+        text-align: center;
+        font-size: 100%;
+    }
+    .khampha img{
+        width: 100%;
+        width: 80%;
+    }
+    .khampha .card{
+        width: 100%;
+        height: 100%;
+    }
+    .video iframe{
+        width: 60%;
+        height: 200px;
+    }
+}
